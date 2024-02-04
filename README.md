@@ -1,7 +1,6 @@
-=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 MouseGame Version 1 README
+
 Joseph Katz, Penn '26
-=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 
 This is an original two-person, pass-and-play game designed as a final project for CIS 1200. 
 It is little rough around the edges, but my friends have had fun with it. Basically, the game 
