@@ -1,0 +1,29 @@
+“The goal of MouseGame is to catch your opponent’s mouse before you mouse is caught. 
+In a moment, you will each be asked to input three pieces of information aside from your name: 
+a pair of starting coordinates, a distance that your mouse will move throughout the game, 
+and a “special move” pattern (ex. North 3 spaces then West 2 spaces). 
+All of this information will be secret throughout the game so make sure that 
+your opponent can’t see you type it in.
+
+Each turn, you will be able to choose one of the following five actions. 
+The same action cannot be chosen two turns in a row.
+
+Standard Move: You can choose to move your mouse North, South, East, or West. 
+Your mouse will move in the number of spaces that you chose at the beginning of the game. 
+The direction will be publicly known but not the distance. 
+
+Special Move: You can choose to move your mouse in the pattern 
+you decided on at the beginning of the game. 
+
+Add Trap: You can add a trap to one square of your Lab Grid. 
+If your opponent’s mouse ever runs over a trap, they lose the game. 
+
+Add Laser: You can add a laser to a column or row of your Lab Grid. 
+Whenever your opponent’s mouse runs past or on a column or row with a laser, the game sends 
+out a notification that a laser was triggered. Ex. If player 2 places lasers at columns C, E, and G 
+and player 1’s mouse later moves from 3B to 3F, player 2 will receive a notification that two lasers were triggered. 
+
+Spook: When you choose to “spook” your opponent’s mouse, the mouse will move a randomly generated 
+number of spaces (between 1 and 6) in the direction of your choosing. The game will send out a 
+message giving both you and your opponent an inexact idea of how far the mouse moved 
+(“a little spooked” if moved 1 or 2 spaces, “quite spooked” for 3 or 4, and “extremely spooked” for 5 or 6).”
